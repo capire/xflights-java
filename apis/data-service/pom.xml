@@ -58,7 +58,7 @@
 						</configuration>
 					</execution>
 
-					<!-- <execution>
+					<execution>
 						<id>cds.export</id>
 						<goals>
 							<goal>cds</goal>
@@ -68,7 +68,7 @@
 								<command>export srv/data-service.cds -4 mvn -a cdl -2 ./apis/data-service/src/main/resources/cds/capire/xflights-data</command>
 							</commands>
 						</configuration>
-					</execution> -->
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
