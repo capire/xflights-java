@@ -48,7 +48,6 @@ modules:
       - name: xflights-db
 
 resources:
-resources:
   - name: xflights-ias
     type: org.cloudfoundry.managed-service
     parameters:
