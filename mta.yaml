@@ -56,7 +56,7 @@ resources:
       service-name: xflights-ias
       service-plan: application
       config:
-        display-name: xflights
+        display-name: xflights-java
   - name: xflights-db
     type: com.sap.xs.hdi-container
     parameters:
