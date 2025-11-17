@@ -19,6 +19,7 @@ default-env.json
 
 **/.mta/
 *.mtar
+*.mta
 
 *.log*
 gc_history*
