@@ -22,7 +22,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  APP_NAME: xtravels
+  APP_NAME: xflights
   FORCE_COLOR: true
 jobs:
   deploy:
