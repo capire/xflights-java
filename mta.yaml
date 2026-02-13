@@ -57,7 +57,8 @@ resources:
       config:
         display-name: xflights-java
         provided-apis:
-        - name: xflights-data
+        - name: DataConsumer
+          description: Grants technical access to data service API
   - name: xflights-db
     type: com.sap.xs.hdi-container
     parameters:
