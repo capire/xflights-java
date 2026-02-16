@@ -39,6 +39,20 @@
         </configuration>
       </plugin>
       <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>3.5.0</version>
+        <configuration>
+          <filesets>
+            <fileset>
+              <directory>src/main/resources/cds/capire/xflights-data</directory>
+              <excludes>
+                <exclude>index.cds</exclude>
+              </excludes>
+            </fileset>
+          </filesets>
+        </configuration>
+      </plugin>
+      <plugin>
         <groupId>com.sap.cds</groupId>
         <artifactId>cds-maven-plugin</artifactId>
         <executions>
@@ -66,7 +80,7 @@
             </goals>
             <configuration>
               <commands>
-                <command>export srv/data-service.cds -4 mvn -a cdl -2 ./apis/data-service/src/main/resources/cds/capire/xflights-data</command>
+                <command>export srv/data-service.cds --data --texts --as cdl -4 mvn -2 ./apis/data-service/src/main/resources/cds/capire/xflights-data</command>
               </commands>
             </configuration>
           </execution>
