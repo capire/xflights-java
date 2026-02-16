@@ -21,4 +21,4 @@ cds:
   security.mock.users:
     consumer:
       roles:
-      - DataConsumer
+      - data-consumer
