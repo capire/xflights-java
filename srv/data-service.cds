@@ -11,12 +11,12 @@ using { sap, sap.capire.flights as my } from '../db/schema';
     key date, // preserve the flight date as a key
     *, // include all other fields from my.Flights
     maximum_seats - occupied_seats as free_seats : Integer,
-  } excluding { flight };
+  } excluding { flight, createdAt, createdBy, modifiedBy };
 
   // Serve Airlines, Airports, and Supplements data as is
-  @readonly entity Airlines as projection on my.Airlines;
-  @readonly entity Airports as projection on my.Airports;
-  @readonly entity Supplements as projection on my.Supplements;
+  @readonly entity Airlines as projection on my.Airlines excluding { createdAt, createdBy, modifiedBy };
+  @readonly entity Airports as projection on my.Airports excluding { createdAt, createdBy, modifiedBy };
+  @readonly entity Supplements as projection on my.Supplements excluding { createdAt, createdBy, modifiedBy };
 }
 
 
