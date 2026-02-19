@@ -1,6 +1,6 @@
-ID,name,currency_code,icon
-GA,Green Albatros,CAD,https://raw.githubusercontent.com/SAP-samples/fiori-elements-opensap/main/week1/images/airlines/Green-Albatross-logo.png
-FA,Fly Africa,ZAR,https://raw.githubusercontent.com/SAP-samples/fiori-elements-opensap/main/week1/images/airlines/Fly-Africa-logo.png
-EA,European Airlines,EUR,https://raw.githubusercontent.com/SAP-samples/fiori-elements-opensap/main/week1/images/airlines/European-Airlines-logo.png
-OC,Oceania,USD,https://raw.githubusercontent.com/SAP-samples/fiori-elements-opensap/main/week1/images/airlines/Oceania-logo.png
-SW,Sunset Wings,USD,https://raw.githubusercontent.com/SAP-samples/fiori-elements-opensap/main/week1/images/airlines/Sunset-Wings-logo.png
+ID,modifiedAt,name,currency_code,icon
+GA,2026-02-09T13:24:08.115Z,Green Albatros,CAD,https://raw.githubusercontent.com/SAP-samples/fiori-elements-opensap/main/week1/images/airlines/Green-Albatross-logo.png
+FA,2026-02-09T13:24:08.115Z,Fly Africa,ZAR,https://raw.githubusercontent.com/SAP-samples/fiori-elements-opensap/main/week1/images/airlines/Fly-Africa-logo.png
+EA,2026-02-09T13:24:08.115Z,European Airlines,EUR,https://raw.githubusercontent.com/SAP-samples/fiori-elements-opensap/main/week1/images/airlines/European-Airlines-logo.png
+OC,2026-02-09T13:24:08.115Z,Oceania,USD,https://raw.githubusercontent.com/SAP-samples/fiori-elements-opensap/main/week1/images/airlines/Oceania-logo.png
+SW,2026-02-09T13:24:08.115Z,Sunset Wings,USD,https://raw.githubusercontent.com/SAP-samples/fiori-elements-opensap/main/week1/images/airlines/Sunset-Wings-logo.png
