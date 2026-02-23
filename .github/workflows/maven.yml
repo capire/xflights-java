@@ -3,19 +3,17 @@
 
 name: Java CI with Maven
 
-permissions:
-  contents: read
-
 on:
   workflow_call:
   pull_request:
     branches: [ "main" ]
 
+permissions:
+  contents: read
+
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v6
     - name: Set up JDK
