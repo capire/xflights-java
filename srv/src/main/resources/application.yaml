@@ -18,3 +18,4 @@ spring:
   sql.init.platform: h2
 cds:
   data-source.auto-config.enabled: false
+  hcql.v2.enabled: true
