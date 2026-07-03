@@ -21,8 +21,8 @@
     <!-- DEPENDENCIES VERSION -->
     <jdk.version>25</jdk.version>
     <cds.services.version>5.0.0</cds.services.version>
-    <spring.boot.version>3.5.16</spring.boot.version>
-    <sap.cloud.security.version>3.7.4</sap.cloud.security.version>
+    <spring.boot.version>4.1.0</spring.boot.version>
+    <sap.cloud.security.version>4.0.8</sap.cloud.security.version>
 
     <cds.install-node.downloadUrl>https://nodejs.org/dist/</cds.install-node.downloadUrl>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
