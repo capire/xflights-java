@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "CAP Java sample for master data service",
   "devDependencies": {
-    "@sap/cds-dk": "^9"
+    "@sap/cds-dk": "^10",
+    "@cap-js/sqlite": "^3"
   },
   "scripts": {
     "lint": "npx eslint ."
