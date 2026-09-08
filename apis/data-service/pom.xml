@@ -80,7 +80,7 @@
             </goals>
             <configuration>
               <commands>
-                <command>export srv/data-service.cds --data --texts --as cdl -4 mvn -2 ./apis/data-service/src/main/resources/cds/capire/xflights-data</command>
+                <command>export srv/data-service.cds --mvn capire:xflights-data --data --texts --as cdl --to apis/data-service</command>
               </commands>
             </configuration>
           </execution>
